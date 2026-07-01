@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#netflix-logo {
+    fill: rgb(229, 9, 20);
+    width: 150px;
+    z-index: 5;
+}
+
+.main {
+    background-image: url("Assets/Images/Background_image.jpg");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+body {
+    background-color: black;
+}
+
+#bg {
+    opacity: 0.45;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav>span {
+    display: flex;
+    max-width: 85vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 70px;
+
+}
+
+.btn {
+    z-index: 5;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid rgb(229, 9, 20);
+    border-radius: 5px;
+}
+
+#sign-in-button {
+    width: 76px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 4px 16px;
+
+}
+
+#get-started {
+    padding: 12px 24px;
+    height: 60px;
+    width: 183px;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+
+#email-input {
+    width: 211px;
+    height: 24px;
+    padding: 18px 16px 12px 16px;
+    background-color: rgba(23, 12, 12, 0.708);
+    border: 1px solid rgb(23, 12, 12);
+    border-radius: 5px;
+    color: white;
+}
+
+#bg-text {
+    color: rgb(245, 246, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    height: 75%;
+    width: 80%;
+    font-size: 30px;
+    position: relative;
+    z-index: 7;
+    gap: 23px;
+    padding: 30px;
+}
+
+#bg-text span:first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+#bg-text:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#bg-text span:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer-email>p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#get-started-2 {
+    height: 40px;
+    width: 110px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: auto;
+}
+
+.email-div {
+    margin-bottom: 25px;
+}
+
+.info-box {
+    background-color: rgb(6, 6, 35);
+    height: 20%;
+    border: 2px solid rgb(6, 6, 35);
+    border-radius: 15px;
+    margin: auto;
+    width: 90%;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+#info-container {
+    background-color: transparent;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-box>p {
+    padding: 7px;
+}
+
+.info-box>svg {
+    float: right;
+    margin-right: 15px;
+}
+
+.info-box :first-child {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.info-box :nth-child(2) {
+    color: gray;
+}
+
+.seperation {
+    background-color: rgb(56, 55, 55);
+    width: 100%;
+    height: 2px;
+}
+
+.faq-box {
+    background-color: rgba(128, 128, 128, 0.614);
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    border: 2px rgba(128, 128, 128, 0.614);
+    border-radius: 7px;
+
+}
+
+#faqs {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faq-box>svg {
+    float: right;
+}
+
+.faq-box>span {
+    color: white;
+    font-size: 25px;
+}
+
+.faq-box:hover {
+    background-color: rgb(45, 40, 40);
+}
+
+.btn:hover {
+    background-color: rgb(155, 3, 11);
+    border: 2px solid rgb(155, 3, 11);
+    color: rgb(203, 203, 203);
+}
+
+footer {
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: rgb(203, 203, 203);
+    padding-top: 17px;
+}
+
+#footer-txt {
+    color: rgb(203, 203, 203);
+}
+
+#verify {
+    color: rgba(128, 128, 128, 0.927);
+}
+
+#lng-btn:hover {
+    background-color: rgba(128, 128, 128, 0.614);
+}
+
+#lng-btn {
+    background-color: black;
+    width: 90px;
+    border: 2px solid rgb(56, 55, 55);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lng-txt {
+    color: white;
+    font-size: 1rem;
+
+}
